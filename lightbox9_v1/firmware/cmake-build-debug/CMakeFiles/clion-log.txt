@@ -1,0 +1,4 @@
+"/Users/badeand/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/badeand/dev/esp/osctest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/badeand/dev/esp/osctest/cmake-build-debug
