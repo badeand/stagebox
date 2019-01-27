@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BUILTIN_LED</find>
+      <find>ledpin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="1138" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="osctest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firmware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osctest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firmware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="23" width="960" height="1138" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25490198" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298279" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3298279" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Python/2.7/site-packages/serial/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
