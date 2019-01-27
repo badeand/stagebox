@@ -1,0 +1,42 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=lightcon4
+*Date=18:53:19
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;power_jack_slot;53.0697;-64.2747;-90;Bottom;VIN
+2;220;THT;39.2289;-56.7689;0;Bottom;R0
+3;;;28.7968;-4.48568;0;Bottom;TXT4
+4;680;THT;39.2289;-11.0489;0;Bottom;R13
+5;680;THT;39.2289;-46.6089;0;Bottom;R01
+6;;;16.4142;-33.7606;0;Bottom;M1
+7;;;20.4474;-35.6064;-90;Bottom;TXT3
+8;;;44.818;-75.3129;0;Bottom;TXT1
+9;680;THT;39.2289;-21.2089;0;Bottom;R04
+10;;;54.4689;-74.5489;0;Bottom;Hole3
+11;;;26.7905;-67.7296;0;Bottom;TXT2
+12;;;27.0603;-70.0688;0;Bottom;TXT1
+13;;;39.2289;-52.3239;180;Bottom;Q01
+14;680;THT;39.2289;-33.9089;0;Bottom;R03
+15;;power_jack_slot;53.0697;-13.4747;-90;Bottom;VOUT13
+16;;;39.2289;-26.9239;180;Bottom;Q04
+17;;;3.66889;-3.42885;0;Bottom;Hole4
+18;;;15.7425;-72.3926;0;Bottom;TXT1
+19;;power_jack_slot;53.0697;-51.5747;-90;Bottom;VOUT01
+20;;5 mm [THT];38.5379;-61.8489;-90;Bottom;LED
+21;;;39.2289;-39.6239;180;Bottom;Q03
+22;;;54.4689;-3.42885;0;Bottom;Hole2
+23;;;3.66889;-74.5489;0;Bottom;Hole1
+24;;;39.2289;-16.7639;180;Bottom;Q13
+25;;power_jack_slot;53.0697;-26.1747;-90;Bottom;VOUT04
+26;;power_jack_slot;53.0697;-38.8747;-90;Bottom;VOUT03
+27;;;26.1541;-2.54123;0;Bottom;TXT4
