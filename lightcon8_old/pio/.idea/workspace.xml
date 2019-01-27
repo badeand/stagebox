@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="pio" targetName="PLATFORMIO" />
+      <config projectName="pio" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="pio" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="pio" targetName="PLATFORMIO_UPDATE_ALL" />
+      <config projectName="pio" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <config projectName="pio" targetName="pio" />
+      <config projectName="pio" targetName="PLATFORMIO_PROGRAM" />
+      <config projectName="pio" targetName="PLATFORMIO_BUILD" />
+      <config projectName="pio" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="pio" targetName="DEBUG" />
+      <config projectName="pio" targetName="PLATFORMIO_TEST" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/osctest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+    </list>
+    <ignored path="platformio.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="pio" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platformio.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.piolibdeps/OSC_ID423/examples/ESP8266ReceiveMessage/ESP8266ReceiveMessage.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>led</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp_old" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="1138" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pio" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PLATFORMIO_UPLOAD">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pio" RUN_TARGET_NAME="pio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pio" TARGET_NAME="pio" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.PLATFORMIO_UPDATE" />
+      <item itemvalue="Application.PLATFORMIO_BUILD" />
+      <item itemvalue="Application.PLATFORMIO_CLEAN" />
+      <item itemvalue="Application.PLATFORMIO_PROGRAM" />
+      <item itemvalue="Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <item itemvalue="Application.PLATFORMIO_TEST" />
+      <item itemvalue="Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="Application.PLATFORMIO_UPLOADFS" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="" />
+      <created>1435919971910</created>
+      <option name="number" value="Default" />
+      <updated>1435919971910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="960" height="1138" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.38235295" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="CMake" order="4" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.28585085" />
+      <window_info anchor="right" id="Database" order="0" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.piolibdeps/OSC_ID423/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.piolibdeps/ArduinoOSC_ID1896/examples/arduino/OscWiFi/OscWiFi.ino" />
+    <entry file="file://$PROJECT_DIR$/.piolibdeps/OSC_ID423/examples/ESP8266ReceiveMessage/ESP8266ReceiveMessage.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp_old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platformio.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
