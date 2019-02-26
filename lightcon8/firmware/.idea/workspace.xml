@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lightcon8_old/pio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightcon8_old/pio/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -156,8 +149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>

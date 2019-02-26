@@ -9,7 +9,7 @@
 #include <ESPmDNS.h>
 
 char ssid[] = "Bache";          // your network SSID (name)
-char pass[] = "71073826";                    // your network password
+char pass[] = "XXXX";                    // your network password
 
 // A UDP instance to let us send and receive packets over UDP
 WiFiUDP Udp;
