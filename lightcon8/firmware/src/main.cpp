@@ -1,12 +1,12 @@
+
+#include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <OSCMessage.h>
 #include <OSCBundle.h>
 #include <OSCData.h>
-#include <Arduino.h>
 #include <WebServer.h>
 #include <ESPmDNS.h>
-
 
 char ssid[] = "Bache";          // your network SSID (name)
 char pass[] = "71073826";                    // your network password
@@ -35,71 +35,83 @@ void handleIP() {
     server.send(200, "text/html", ipAddress.toString());
 }
 
+
 void setup() {
 
     Serial.begin(115200);
     Serial.println("--- SETUP ---");
 
-    Serial.print("Setting up PWM....");
-    // configure LED PWM functionalitites
-    ledcSetup(1, freq, resolution);
+
+    /*
     ledcSetup(3, freq, resolution);
     ledcSetup(4, freq, resolution);
     ledcSetup(13, freq, resolution);
 
-    // attach the channel to the GPIO to be controlled
-    ledcAttachPin(1, 1);
+    delay(1000);
+
+    Serial.print("..done");
+
+    Serial.print("..attaching pwm channels to the GPIO..");
     ledcAttachPin(3, 3);
     ledcAttachPin(4, 4);
     ledcAttachPin(13, 13);
-    Serial.println("Done");
+    Serial.println("Setup PWM..attach the channel to the GPIO to be controlled..done");
+    Serial.println("Setup PWM..done");
+*/
 
-    // Connect to WiFi network
-    Serial.print("Connecting to ");
-    Serial.println(ssid);
-    WiFi.begin(ssid, pass);
+   // Connect to WiFi network
+   Serial.print("Connecting to ");
+   Serial.println(ssid);
+   WiFi.begin(ssid, pass);
 
-    while (WiFi.status() != WL_CONNECTED) {
-        delay(500);
-        Serial.print(".");
-    }
-    Serial.println("");
+   while (WiFi.status() != WL_CONNECTED) {
+       delay(500);
+       Serial.print(".");
+   }
+   Serial.println("");
 
-    Serial.println("WiFi connected");
-    Serial.println("IP address: ");
-    Serial.println(WiFi.localIP());
-    ipAddress = WiFi.localIP();
+   Serial.println("WiFi connected");
+   Serial.println("IP address: ");
+   Serial.println(WiFi.localIP());
+   ipAddress = WiFi.localIP();
 
-    Serial.print("Starting UDP...");
-    Udp.begin(localPort);
-    Serial.println("Done");
+   Serial.print("Starting UDP...");
+   Udp.begin(localPort);
+   Serial.println("Done");
 
-    Serial.print("Starting MDNS...");
-    if (MDNS.begin("lightcon8_1")) {
-        Serial.println("MDNS responder started");
-    }
-    Serial.println("Done");
+   Serial.print("Starting MDNS...");
+   if (MDNS.begin("lightcon8_1")) {
+       Serial.println("MDNS responder started");
+   }
+   Serial.println("Done");
 
-    server.on("/", handleRoot);
-    server.on("/ip", handleIP);
-    server.begin();
-    Serial.println("HTTP server started");
+   server.on("/", handleRoot);
+   server.on("/ip", handleIP);
+   server.begin();
+   Serial.println("HTTP server started");
 
-/*
-    pinMode(03, OUTPUT);
-    pinMode(21, OUTPUT);
-    pinMode(22, OUTPUT);
-    pinMode(23, OUTPUT);
-    pinMode(19, OUTPUT);
-    pinMode(18, OUTPUT);
-    pinMode(05, OUTPUT);
-    pinMode(17, OUTPUT);
-    pinMode(16, OUTPUT);*/
+
+    Serial.println("Setting up PWM");
+
+
+    Serial.print("PWN Setup.ch/pin: 1 ..");
+    ledcSetup(1, freq, resolution);
+    ledcAttachPin(1, 1);
+    Serial.print("PWN Setup.ch/pin: 3 ..");
+    ledcSetup(3, freq, resolution);
+    ledcAttachPin(3, 3);
+    Serial.print("PWN Setup.ch/pin: 4 ..");
+    ledcSetup(4, freq, resolution);
+    ledcAttachPin(4, 4);
+    Serial.print("PWN Setup.ch/pin: 13 ..");
+    ledcSetup(13, freq, resolution);
+    ledcAttachPin(13, 13);
+    Serial.println("done.");
 
     Serial.println("--- SETUP DONE ---");
 
-}
 
+}
 
 void led(OSCMessage &msg) {
     ledPin = msg.getInt(0);
@@ -110,6 +122,7 @@ void led(OSCMessage &msg) {
     Serial.print( ledPin );
     Serial.print(" state: ");
     Serial.println(ledState);
+
 }
 
 void loop() {
@@ -129,4 +142,5 @@ void loop() {
             Serial.println(error);
         }
     }
+
 }

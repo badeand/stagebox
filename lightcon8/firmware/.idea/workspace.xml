@@ -9,7 +9,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="" />
+    <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lightbox9_v1/firmware/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightbox9_v1/firmware/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lightcon8_old/pio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lightcon8_old/pio/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +36,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+            <state relative-caret-position="658">
+              <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platformio.ini">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -52,8 +66,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="713" />
+    <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="1138" />
   </component>
@@ -63,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,7 +93,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,9 +115,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="713" width="960" height="1138" extended-state="0" />
+    <frame x="0" y="23" width="960" height="1138" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27995643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -117,8 +131,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298279" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.7753346" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3298279" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.7753346" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298279" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -130,17 +144,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="lightcon8 prototype working" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/platformio.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/serial/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        <state relative-caret-position="193">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        <state relative-caret-position="658">
+          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
         </state>
       </provider>
     </entry>
