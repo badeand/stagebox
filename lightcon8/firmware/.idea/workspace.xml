@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../neoring24/firmware/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../neoring24/firmware/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../neoring24/firmware/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../neoring24/firmware/src/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/.sconsign.dblite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/firmware.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/esp32doit-devkit-v1/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="427">
+              <caret line="53" lean-forward="true" selection-start-line="52" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -108,9 +117,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="445" width="1338" height="1138" extended-state="0" />
+    <frame x="0" y="23" width="960" height="1139" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19830246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -124,7 +134,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298279" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7753346" />
-      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298279" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -136,9 +146,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="lightcon8 prototype working" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platformio.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/serial/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -148,10 +155,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="427">
+          <caret line="53" lean-forward="true" selection-start-line="52" selection-end-line="53" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platformio.ini">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
