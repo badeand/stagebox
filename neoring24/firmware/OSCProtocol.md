@@ -10,6 +10,18 @@ Set the RGB value for a specific pixel.
 |------|---------|------|-------|
 | Index | Index for the neopixel to control | integer | 0 - ( number of pixels -1 )
 | R | Red | integer | 0 - 255
-| G | Red | integer | 0 - 255
-| B | Red | integer | 0 - 255
+| G | Green | integer | 0 - 255
+| B | Blue | integer | 0 - 255
+
+## all
+
+Set the RGB value for all pixels.
+
+### Parameters
+
+| Name | Meaning | Type | Range |
+|------|---------|------|-------|
+| R | Red | integer | 0 - 255
+| G | Green | integer | 0 - 255
+| B | Blue | integer | 0 - 255
 
