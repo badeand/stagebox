@@ -155,7 +155,7 @@ void handleOSCMessages() {// server.handleClient();
             msg.fill(Udp.read());
         }
         if (!msg.hasError()) {
-            msg.dispatch("/led", led);
+            msg.dispatch("/single", led);
         } else {
             error = msg.getError();
             Serial.print("error: ");
