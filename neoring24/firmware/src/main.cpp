@@ -112,11 +112,17 @@ void initNetwork() {// Connect to WiFi network
 }
 
 void osc_single(OSCMessage &msg) {
-    int index = msg.getInt(0);
-    int r = msg.getInt(1);
-    int g = msg.getInt(2);
-    int b = msg.getInt(3);
-    leds[index] = CRGB(r, g, b);
+    leds[msg.getInt(0)] = CRGB(msg.getInt(1), msg.getInt(2), msg.getInt(3));
+    FastLED.show();
+}
+
+void osc_all(OSCMessage &msg) {
+    int r = msg.getInt(0);
+    int g = msg.getInt(1);
+    int b = msg.getInt(2);
+    for (int i = 0; i <= NUM_LEDS; i++) {
+        leds[i] = CRGB(r, g, b);
+    }
     FastLED.show();
 }
 
@@ -142,6 +148,7 @@ void handleOSCMessages() {
         }
         if (!msg.hasError()) {
             msg.dispatch("/single", osc_single);
+            msg.dispatch("/all", osc_all);
         } else {
             error = msg.getError();
             Serial.print("error: ");

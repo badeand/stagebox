@@ -12,7 +12,6 @@
     <list default="true" id="717b1004-5da7-4718-a9ef-6001b0225d75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../neoring24/firmware/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../neoring24/firmware/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../neoring24/firmware/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../neoring24/firmware/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../neoring24/firmware/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../neoring24/firmware/src/main.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
