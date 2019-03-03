@@ -1,16 +1,18 @@
 #include "Arduino.h"
-#include <Adafruit_NeoPixel.h>
-#include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <OSCMessage.h>
-#include <OSCBundle.h>
-#include <OSCData.h>
 #include <WebServer.h>
 #include <ESPmDNS.h>
+#include <FastLED.h>
+
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
+
+#define NUM_LEDS 24
+#define DATA_PIN 4
+CRGB leds[NUM_LEDS];
 
 // Which pin on the Arduino is connected to the NeoPixels?
 // On a Trinket or Gemma we suggest changing this to 1
@@ -26,14 +28,10 @@ char pass[] = "71073826";                    // your network password
 WiFiUDP Udp;
 const unsigned int localPort = 8888;        // local port to listen for UDP packets (here's where we send the packets)
 
+
 OSCErrorCode error;
 IPAddress ipAddress;
 
-// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
-// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
-// example for more information on possible values.
-//Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB);
 
 int delayval = 1; // delay for half a second
 
@@ -41,15 +39,11 @@ const int freq = 5000;
 const int resolution = 8;
 
 
-int ledPin = 0;
-int ledR = 0;
-int ledG = 0;
-int ledB = 0;
 
 const int indicatorPin = 2;
 
 void indicate(int s) {
-    // ledcWrite(indicatorPin, s);
+    ledcWrite(indicatorPin, s);
 }
 
 void initNetwork();
@@ -62,30 +56,40 @@ void handleOSCMessages();
 
 void ringTest();
 
+void initIndicator();
+
+void initFastLED();
+
 void setup() {
 
     Serial.begin(9600);
 
-    /*
-    Serial.print("PWN Setup.ch/pin: 2 ..");
-    ledcSetup(indicatorPin, freq, resolution);
-    ledcAttachPin(indicatorPin, indicatorPin);
-*/
-
     Serial.println("--- SETUP ---");
 
-    // initNetwork();
+    initIndicator();
+
+    indicate(255);
+    initFastLED();
+
+    initNetwork();
     indicate(64);
 
-    // initUDP();
+    initUDP();
     indicate(255);
 
-    // initMDNS();
+    initMDNS();
     indicate(10);
 
-    pixels.begin();
-
     Serial.println("--- SETUP DONE ---");
+}
+
+void initFastLED() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
+
+void initIndicator() {
+    Serial.println("Indicator setup");
+    ledcSetup(indicatorPin, freq, resolution);
+    ledcAttachPin(indicatorPin, indicatorPin);
+    Serial.println("Indicator setup .. done");
 }
 
 void initMDNS() {
@@ -121,44 +125,23 @@ void initNetwork() {// Connect to WiFi network
     ipAddress = WiFi.localIP();
 }
 
-
 void led(OSCMessage &msg) {
-
-    ledPin = msg.getInt(0);
-    ledR = msg.getInt(1);
-    // ledcWrite(ledPin, ledState);
-    Serial.print("pin:" );
-    Serial.print( ledPin );
-    Serial.print(" ledR: ");
-    Serial.println(ledR);
-
-    pixels.setPixelColor(ledPin, pixels.Color(ledR,0,0)); // Moderately bright green color.
-    pixels.show(); // This sends the updated pixel color to the hardware.
-
+    int index = msg.getInt(0);
+    int r = msg.getInt(1);
+    int g = msg.getInt(2);
+    int b = msg.getInt(3);
+    leds[index] = CRGB(r,g,b);
+    FastLED.show();
 }
 
 long timestamp = millis();
 
-
 void loop() {
-    // handleOSCMessages();
-    ringTest();
-}
-
-void ringTest() {
-    for(int i=0; i < NUMPIXELS; i++){
-        // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
-        pixels.setPixelColor(i, pixels.Color(0,0,0)); // Moderately bright green color.
-        delay(1);
-        pixels.show(); // This sends the updated pixel color to the hardware.
-        delay(delayval); // Delay for a period of time (in milliseconds).
-    }
-    for(int i=0;i<NUMPIXELS;i++){
-        // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
-        pixels.setPixelColor(i, pixels.Color(0,0,0)); // Moderately bright green color.
-        delay(1);
-        pixels.show(); // This sends the updated pixel color to the hardware.
-        delay(delayval); // Delay for a period of time (in milliseconds).
+    handleOSCMessages();
+    if( millis() < timestamp ) {
+        indicate(128);
+    } else {
+        indicate(1);
     }
 }
 
@@ -176,13 +159,7 @@ void handleOSCMessages() {// server.handleClient();
         } else {
             error = msg.getError();
             Serial.print("error: ");
-            Serial.println(""+error);
+            Serial.println("" + error);
         }
-    }
-
-    if( millis() < timestamp ) {
-        indicate(255);
-    } else {
-        indicate(10);
     }
 }
