@@ -22,7 +22,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
@@ -45,8 +44,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Command_Args/Shell_Command_Args.ino">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="350">
-                    <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+                  <state relative-caret-position="219">
+                    <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
                   </state>
                 </provider>
               </entry>
@@ -74,11 +73,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="1129">
+              <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#183#205#0" expanded="true" />
+                <element signature="e#705#761#0" />
+                <element signature="e#763#934#0" />
+                <element signature="e#936#1089#0" />
+                <element signature="e#936#1187#0" />
+                <element signature="e#1414#1618#0" />
+                <element signature="e#1688#1797#0" />
+                <element signature="e#2268#2401#0" />
+                <element signature="e#2403#2603#0" />
+                <element signature="e#2606#3083#0" />
+                <element signature="e#3278#3410#0" />
+                <element signature="e#3412#3800#0" />
+                <element signature="e#4126#4512#0" />
+                <element signature="e#3555#3864#0" />
+                <element signature="e#4362#4559#0" />
+                <element signature="e#4488#4658#0" />
               </folding>
             </state>
           </provider>
@@ -293,11 +305,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info id="Structure" sideWeight="0.39851302" side_tool="true" visible="true" weight="0.18317358" />
+      <window_info active="true" id="Structure" sideWeight="0.39851302" side_tool="true" visible="true" weight="0.18317358" />
       <window_info id="Project" order="0" sideWeight="0.601487" visible="true" weight="0.18317358" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Find" visible="true" weight="0.32951146" />
+      <window_info anchor="bottom" id="Find" visible="true" weight="0.32951146" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
@@ -372,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Command_Args/Shell_Command_Args.ino">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/EEPROM.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="659">
@@ -386,13 +391,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Command_Args/Shell_Command_Args.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="1129">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#183#205#0" expanded="true" />
+            <element signature="e#705#761#0" />
+            <element signature="e#763#934#0" />
+            <element signature="e#936#1089#0" />
+            <element signature="e#936#1187#0" />
+            <element signature="e#1414#1618#0" />
+            <element signature="e#1688#1797#0" />
+            <element signature="e#2268#2401#0" />
+            <element signature="e#2403#2603#0" />
+            <element signature="e#2606#3083#0" />
+            <element signature="e#3278#3410#0" />
+            <element signature="e#3412#3800#0" />
+            <element signature="e#4126#4512#0" />
+            <element signature="e#3555#3864#0" />
+            <element signature="e#4362#4559#0" />
+            <element signature="e#4488#4658#0" />
           </folding>
         </state>
       </provider>

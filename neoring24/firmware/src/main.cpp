@@ -19,6 +19,7 @@ CRGB leds[NUM_LEDS];
 
 String wifissid = "";
 String wifipwd = "";
+String mdnsname = "neoring24_1";
 
 WiFiUDP Udp;
 const unsigned int localPort = 8888;
@@ -34,6 +35,7 @@ const int indicatorPin = 2;
 
 static const int EEPROM_ADDR_SSID = 0;
 static const int EEPROM_ADDR_PWD = 32;
+static const int EEPROM_ADDR_MDNSNAME = 64;
 long timestamp = millis();
 
 void indicate(int s) {
@@ -74,6 +76,8 @@ void initFastLED();
 
 void initEEPROM();
 
+char *toString(String &string);
+
 void initFastLED() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
 
 void initIndicator() {
@@ -83,26 +87,13 @@ void initIndicator() {
     Serial.println("Indicator setup .. done");
 }
 
-void initMDNS() {
-    Serial.print("Starting MDNS...");
-    if (MDNS.begin("neoring24_1")) {
-        Serial.println("MDNS responder started");
-    }
-}
-
-void initUDP() {
-    Serial.print("Starting UDP...");
-    Udp.begin(localPort);
-    Serial.println("Done");
-}
-
 void initNetwork() {// Connect to WiFi network
     timestamp = millis();
     wifissid = EEPROM.readString(EEPROM_ADDR_SSID);
     wifipwd = EEPROM.readString(EEPROM_ADDR_PWD);
     Serial.print("Connecting to ");
     Serial.println(wifissid);
-    WiFi.begin(const_cast<char *>(wifissid.c_str()), const_cast<char *>(wifipwd.c_str()));
+    WiFi.begin(toString(wifissid), const_cast<char *>(wifipwd.c_str()));
 
     bool indicatorState = false;
     while (WiFi.status() != WL_CONNECTED) {
@@ -123,6 +114,26 @@ void initNetwork() {// Connect to WiFi network
     Serial.print("WiFi connected. IP address: ");
     Serial.println(WiFi.localIP());
     ipAddress = WiFi.localIP();
+}
+
+char *toString(String &string) { return const_cast<char *>(string.c_str()); }
+
+void initMDNS() {
+    Serial.print("Starting MDNS .. ");
+    mdnsname = EEPROM.readString(EEPROM_ADDR_MDNSNAME);
+    Serial.print("name:");
+    Serial.print(mdnsname);
+    if (MDNS.begin(toString(mdnsname))) {
+        Serial.println(" .. done .. ");
+    } else {
+        Serial.println(" FAILED! ");
+    }
+}
+
+void initUDP() {
+    Serial.print("Starting UDP...");
+    Udp.begin(localPort);
+    Serial.println("Done");
 }
 
 void osc_single(OSCMessage &msg) {
@@ -165,6 +176,7 @@ int command_help(int argc, char **argv) {
     shell_println("  reset               - reset the system");
     shell_println("  wifissid <ssid>     - Set WIFI SSID");
     shell_println("  wifipwd  <password> - Set WIFI password");
+    shell_println("  mdnsname <name>     - Set MDNS name");
     return SHELL_RET_SUCCESS;
 }
 
@@ -203,12 +215,27 @@ int command_wifipwd(int argc, char **argv) {
     return SHELL_RET_SUCCESS;
 }
 
+int command_mdnsname(int argc, char **argv) {
+
+    if (argc != 2) {
+        shell_println("Expected one parameter: MDNS name (String)");
+        return SHELL_RET_FAILURE;
+    }
+
+    shell_printf("Saving MDNS name to EEPROM: \"%s\" \r\n", argv[1]);
+    EEPROM.writeString(EEPROM_ADDR_MDNSNAME, argv[1]);
+    EEPROM.commit();
+
+    return SHELL_RET_SUCCESS;
+}
+
 void initShell() {
     shell_init(shell_reader, shell_writer, 0);
 
     shell_register(command_reset, PSTR("reset"));
     shell_register(command_wifissid, PSTR("wifissid"));
     shell_register(command_wifipwd, PSTR("wifipwd"));
+    shell_register(command_mdnsname, PSTR("mdnsname"));
     shell_register(command_help, PSTR("help"));
 }
 

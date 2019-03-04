@@ -252,7 +252,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 430.600006103515625, 309.60003662109375, 128.0, 32.0 ],
+					"patching_rect" : [ 430.600006103515625, 315.60003662109375, 128.0, 32.0 ],
 					"saturation" : 1.0
 				}
 
@@ -1940,8 +1940,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 570.0, 183.0, 22.0 ],
-					"text" : "udpsend neoring24_1.local 8888"
+					"patching_rect" : [ 45.0, 570.0, 142.0, 22.0 ],
+					"text" : "udpsend test2.local 8888"
 				}
 
 			}
@@ -2463,21 +2463,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103" : [ "live.slider[14]", "live.slider", 0 ],
-			"obj-110" : [ "live.slider[9]", "live.slider", 0 ],
-			"obj-92" : [ "live.slider[7]", "live.slider", 0 ],
-			"obj-121" : [ "live.slider[19]", "live.slider", 0 ],
-			"obj-102" : [ "live.slider[13]", "live.slider", 0 ],
-			"obj-51" : [ "live.slider", "live.slider", 0 ],
-			"obj-54" : [ "live.slider[2]", "live.slider", 0 ],
-			"obj-112" : [ "live.slider[16]", "live.slider", 0 ],
-			"obj-120" : [ "live.slider[18]", "live.slider", 0 ],
-			"obj-52" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-93" : [ "live.slider[11]", "live.slider", 0 ],
-			"obj-101" : [ "live.slider[8]", "live.slider", 0 ],
-			"obj-94" : [ "live.slider[12]", "live.slider", 0 ],
 			"obj-111" : [ "live.slider[15]", "live.slider", 0 ],
+			"obj-112" : [ "live.slider[16]", "live.slider", 0 ],
+			"obj-54" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-110" : [ "live.slider[9]", "live.slider", 0 ],
+			"obj-51" : [ "live.slider", "live.slider", 0 ],
+			"obj-94" : [ "live.slider[12]", "live.slider", 0 ],
+			"obj-92" : [ "live.slider[7]", "live.slider", 0 ],
+			"obj-102" : [ "live.slider[13]", "live.slider", 0 ],
+			"obj-103" : [ "live.slider[14]", "live.slider", 0 ],
 			"obj-119" : [ "live.slider[17]", "live.slider", 0 ],
+			"obj-52" : [ "live.slider[1]", "live.slider", 0 ],
+			"obj-101" : [ "live.slider[8]", "live.slider", 0 ],
+			"obj-120" : [ "live.slider[18]", "live.slider", 0 ],
+			"obj-93" : [ "live.slider[11]", "live.slider", 0 ],
+			"obj-121" : [ "live.slider[19]", "live.slider", 0 ],
 			"parameterbanks" : 			{
 
 			}
