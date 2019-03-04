@@ -7,6 +7,7 @@
 #include <ESPmDNS.h>
 #include <FastLED.h>
 #include <Shell.h>
+#include "EEPROM.h"
 
 #ifdef __AVR__
 #include <avr/power.h>
@@ -16,8 +17,8 @@
 #define DATA_PIN 4
 CRGB leds[NUM_LEDS];
 
-char ssid[] = "Bache";
-char pass[] = "71073826";
+String wifissid = "";
+String wifipwd = "";
 
 WiFiUDP Udp;
 const unsigned int localPort = 8888;
@@ -31,14 +32,15 @@ const int resolution = 8;
 
 const int indicatorPin = 2;
 
+static const int EEPROM_ADDR_SSID = 0;
+static const int EEPROM_ADDR_PWD = 32;
 long timestamp = millis();
 
 void indicate(int s) {
     ledcWrite(indicatorPin, s);
 }
 
-int shell_reader(char * data)
-{
+int shell_reader(char *data) {
     // Wrapper for Serial.read() method
     if (Serial.available()) {
         *data = Serial.read();
@@ -52,8 +54,7 @@ int shell_reader(char * data)
  * Functions to write to physical media should use this prototype:
  * void my_writer_function(char data)
  */
-void shell_writer(char data)
-{
+void shell_writer(char data) {
     // Wrapper for Serial.write() method
     Serial.write(data);
 }
@@ -70,6 +71,8 @@ void initIndicator();
 
 void initFastLED();
 
+
+void initEEPROM();
 
 void initFastLED() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
 
@@ -94,21 +97,30 @@ void initUDP() {
 }
 
 void initNetwork() {// Connect to WiFi network
+    timestamp = millis();
+    wifissid = EEPROM.readString(EEPROM_ADDR_SSID);
+    wifipwd = EEPROM.readString(EEPROM_ADDR_PWD);
     Serial.print("Connecting to ");
-    Serial.println(ssid);
-    WiFi.begin(ssid, pass);
+    Serial.println(wifissid);
+    WiFi.begin(const_cast<char *>(wifissid.c_str()), const_cast<char *>(wifipwd.c_str()));
 
+    bool indicatorState = false;
     while (WiFi.status() != WL_CONNECTED) {
-        indicate(255);
-        delay(255);
-        indicate(0);
-        delay(255);
-        Serial.print(".");
-    }
-    Serial.println("");
+        shell_task();
 
-    Serial.println("WiFi connected");
-    Serial.println("IP address: ");
+        if (millis() > (timestamp + 200)) {
+            timestamp = millis();
+            indicatorState = !indicatorState;
+            if (indicatorState) {
+                indicate(255);
+            } else {
+                indicate(0);
+            }
+        }
+
+    }
+
+    Serial.print("WiFi connected. IP address: ");
     Serial.println(WiFi.localIP());
     ipAddress = WiFi.localIP();
 }
@@ -126,7 +138,6 @@ void osc_all(OSCMessage &msg) {
     }
     FastLED.show();
 }
-
 
 
 void handleOSCMessages() {
@@ -150,17 +161,45 @@ void handleOSCMessages() {
 }
 
 
-int command_help(int argc, char** argv)
-{
-    shell_println("  reset - reset the system");
+int command_help(int argc, char **argv) {
+    shell_println("  reset               - reset the system");
+    shell_println("  wifissid <ssid>     - Set WIFI SSID");
+    shell_println("  wifipwd  <password> - Set WIFI password");
     return SHELL_RET_SUCCESS;
 }
 
 
-int command_reset(int argc, char** argv)
-{
+int command_reset(int argc, char **argv) {
     shell_println("Resetting system");
     ESP.restart();
+    return SHELL_RET_SUCCESS;
+}
+
+int command_wifissid(int argc, char **argv) {
+
+    if (argc != 2) {
+        shell_println("Expected one parameter: ssid");
+        return SHELL_RET_FAILURE;
+    }
+
+    shell_printf("Saving SSID to EEPROM: \"%s\" \r\n", argv[1]);
+    EEPROM.writeString(EEPROM_ADDR_SSID, argv[1]);
+    EEPROM.commit();
+
+    return SHELL_RET_SUCCESS;
+}
+
+int command_wifipwd(int argc, char **argv) {
+
+    if (argc != 2) {
+        shell_println("Expected one parameter: password");
+        return SHELL_RET_FAILURE;
+    }
+
+    shell_printf("Saving Wifi password to EEPROM: \"%s\" \r\n", argv[1]);
+    EEPROM.writeString(EEPROM_ADDR_PWD, argv[1]);
+    EEPROM.commit();
+
     return SHELL_RET_SUCCESS;
 }
 
@@ -168,16 +207,20 @@ void initShell() {
     shell_init(shell_reader, shell_writer, 0);
 
     shell_register(command_reset, PSTR("reset"));
+    shell_register(command_wifissid, PSTR("wifissid"));
+    shell_register(command_wifipwd, PSTR("wifipwd"));
     shell_register(command_help, PSTR("help"));
 }
 
 void setup() {
 
     Serial.begin(9600);
+    Serial.println("--- SETUP ---");
+
+    initEEPROM();
 
     initShell();
-
-    Serial.println("--- SETUP ---");
+    Serial.println();
 
     initIndicator();
 
@@ -194,6 +237,15 @@ void setup() {
     indicate(10);
 
     Serial.println("--- SETUP DONE ---");
+}
+
+void initEEPROM() {
+    if (!EEPROM.begin(128)) {
+        Serial.println("Failed to initialise EEPROM");
+        Serial.println("Restarting...");
+        delay(1000);
+        ESP.restart();
+    }
 }
 
 
