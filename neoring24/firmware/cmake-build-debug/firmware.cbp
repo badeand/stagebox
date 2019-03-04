@@ -104,6 +104,14 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
@@ -112,9 +120,7 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
@@ -126,8 +132,6 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
@@ -220,6 +224,14 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28"/>
+					<Add directory="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
@@ -228,9 +240,7 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
@@ -242,8 +252,6 @@
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
-					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
 					<Add directory="/Users/badeand/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
@@ -350,6 +358,747 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/.github/ISSUE_TEMPLATE.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/.library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/.travis.yml">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/README.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/esp8266.c">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/RGBWstrandtest/.esp8266.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/RGBWstrandtest/.trinket.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/RGBWstrandtest/RGBWstrandtest.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/BLESerial.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/StrandtestBLE.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/buttoncycler/.esp8266.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/buttoncycler/buttoncycler.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/simple/.esp8266.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/simple/simple.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/simple_new_operator/.esp8266.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/simple_new_operator/simple_new_operator.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/strandtest/.esp8266.test.skip">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/strandtest/strandtest.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/keywords.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/library.properties">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/.gitignore">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/.library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/FastLED.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/FastLED.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/PORTING.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/README.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/bitswap.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/bitswap.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/chipsets.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/color.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorpalettes.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorpalettes.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorutils.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorutils.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/component.mk">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/controller.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/cpp_compat.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/dmx.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/AnalogOutput/AnalogOutput.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Blink/Blink.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/ColorPalette/ColorPalette.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/ColorTemperature/ColorTemperature.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Cylon/Cylon.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/DemoReel100/DemoReel100.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Fire2012/Fire2012.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Fire2012WithPalette/Fire2012WithPalette.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/FirstLight/FirstLight.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/MirroringSample/MirroringSample.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/MultiArrays/MultiArrays.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Noise/Noise.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/NoisePlayground/NoisePlayground.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/NoisePlusPalette/NoisePlusPalette.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Pintest/Pintest.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/RGBCalibrate/RGBCalibrate.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/RGBSetDemo/RGBSetDemo.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/SmartMatrix/SmartMatrix.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/examples/XYMatrix/XYMatrix.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastled_config.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastled_delay.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastled_progmem.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastpin.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi_bitbang.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi_dma.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi_nop.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi_ref.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/fastspi_types.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/hsv2rgb.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/hsv2rgb.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/keywords.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/led_sysdefs.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion/math8.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion/random8.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion/scale8.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion/trig8.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/library.properties">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/noise.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/noise.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/pixelset.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/pixeltypes.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/common/m0clockless.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d21/clockless_arm_d21.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d21/fastled_arm_d21.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d21/fastpin_arm_d21.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d21/led_sysdefs_arm_d21.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d51/clockless_arm_d51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d51/fastled_arm_d51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d51/fastpin_arm_d51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/d51/led_sysdefs_arm_d51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/clockless_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/clockless_block_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/fastled_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/fastpin_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/fastspi_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/led_sysdefs_arm_k20.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/octows2811_controller.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/smartmatrix_t3.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k20/ws2812serial_controller.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/clockless_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/clockless_block_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/fastled_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/fastpin_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/fastspi_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/k66/led_sysdefs_arm_k66.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/kl26/clockless_arm_kl26.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/kl26/fastled_arm_kl26.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/kl26/fastpin_arm_kl26.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/kl26/fastspi_arm_kl26.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/kl26/led_sysdefs_arm_kl26.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/nrf51/clockless_arm_nrf51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/nrf51/fastled_arm_nrf51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/nrf51/fastpin_arm_nrf51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/nrf51/fastspi_arm_nrf51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/clockless_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/clockless_block_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/fastled_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/fastpin_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/fastspi_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/sam/led_sysdefs_arm_sam.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/stm32/clockless_arm_stm32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/stm32/cm3_regs.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/stm32/fastled_arm_stm32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/stm32/fastpin_arm_stm32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/arm/stm32/led_sysdefs_arm_stm32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/avr/clockless_trinket.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/avr/fastled_avr.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/avr/fastpin_avr.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/avr/fastspi_avr.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/avr/led_sysdefs_avr.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/clockless_block_esp32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/clockless_esp32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/clockless_esp32.h.orig">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/fastled_esp32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/fastpin_esp32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/32/led_sysdefs_esp32.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/8266/clockless_block_esp8266.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/8266/clockless_esp8266.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/8266/fastled_esp8266.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/8266/fastpin_esp8266.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/platforms/esp/8266/led_sysdefs_esp8266.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/power_mgt.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/power_mgt.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/preview_changes.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/release_notes.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/wiring.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/.library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/README.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/Shell.c">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/Shell.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Basic/Shell_Basic.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Command_Args/Shell_Command_Args.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_IO_Control/Shell_IO_Control.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Minimum/Shell_Minimum.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_RGB_Control/Shell_RGB_Control.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/examples/Shell_Telnet/Shell_Telnet.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/keywords.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/library.properties">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/license.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/.gitignore">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/.library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/API.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/OSCEsplora.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialCallResponse.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialEcho.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialOscuino.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialReceive.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialReceivewithServo.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/SerialSend.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/UDPCallResponse.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/UDPEcho.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/UDPOscuino.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/UDPReceive.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/MaxMSP/examples/UDPSend.maxpat">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/PD/SerialOscuino.pd">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/PD/o.io.slipserial.pd">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/SLIPSerialToUDP/SLIPSerialToUDP.pde">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/UDPReceiveBundle/UDPReceiveBundle.pde">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/UDPReceiveMessage/UDPReceiveMessage.pde">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/serialSend/code/javaosc.jar">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/serialSend/serialSend.pde">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/Applications/Processing/serialSend/sketch.properties">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBoards.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBoards.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBundle.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBundle.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCData.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCData.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMatch.c">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMatch.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMessage.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMessage.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCTiming.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCTiming.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/README.md">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedSerial.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/ESP8266ReceiveBundle/ESP8266ReceiveBundle.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/ESP8266ReceiveMessage/ESP8266ReceiveMessage.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/ESP8266sendMessage/ESP8266sendMessage.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/OSCEsplora/OSCEsplora.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/PatternMatching/PatternMatching.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialCallResponse/SerialCallResponse.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialEcho/SerialEcho.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialOscuinoAdaFruitPlayGroundExpresswithBundles/SerialOscuinoAdaFruitPlayGroundExpresswithBundles.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialOscuinoForFubarino/SerialOscuinoForFubarino.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialOscuinoGemmaM0/SerialOscuinoGemmaM0.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialOscuinowithBundles/SerialOscuinowithBundles.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialOscuinowithMessages/SerialOscuinowithMessages.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialReceive/SerialReceive.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialReceivewithServo/SerialReceivewithServo.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialSendBundle/SerialSendBundle.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialSendBundleWithTimeTag/SerialSendBundleWithTimeTag.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/SerialSendMessage/SerialSendMessage.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPCallResponse/UDPCallResponse.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPEcho/UDPEcho.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPOscuino/UDPOscuino.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPReceive/UDPReceive.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPSendBundle/UDPSendBundle.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPSendBundlewithTimeTag/UDPSendBundlewithTimeTag.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/examples/UDPSendMessage/UDPSendMessage.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/keywords.txt">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/library.json">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/library.properties">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCBundle_test/OSCBundle_test.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCBundle_test/TestPrint.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCData_test/OSCData_test.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCMessage_encode_decode_test/OSCMessage_encode_decode_test.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCMessage_encode_decode_test/TestPrint.h">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCMessage_match_test/OSCMessage_match_test.ino">
+			<Option target="firmware"/>
+		</Unit>
+		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/test/OSCMessage_test/OSCMessage_test.ino">
+			<Option target="firmware"/>
+		</Unit>
 		<Unit filename="/Users/badeand/dev/stagebox/neoring24/firmware/src/main.cpp">
 			<Option target="firmware"/>
 		</Unit>

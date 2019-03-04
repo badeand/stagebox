@@ -227,6 +227,573 @@ PLATFORMIO_UPLOAD/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make CMakeFiles/PLATFORMIO_UPLOAD.dir/build
 .PHONY : PLATFORMIO_UPLOAD/fast
 
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.o: .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.o
+
+# target to build an object file
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.i: .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.i
+
+# target to preprocess a source file
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i
+
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.s: .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.s
+
+# target to generate assembly for a file
+.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s
+
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.o: .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.o
+
+# target to build an object file
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o
+
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.i: .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.i
+
+# target to preprocess a source file
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i
+
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.s: .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.s
+
+# target to generate assembly for a file
+.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s
+
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.o: .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.o
+
+# target to build an object file
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o
+
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.i: .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.i
+
+# target to preprocess a source file
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i
+
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.s: .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s
+
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.s
+
+# target to generate assembly for a file
+.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s
+.PHONY : .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s
+
+.piolibdeps/FastLED_ID126/FastLED.o: .piolibdeps/FastLED_ID126/FastLED.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/FastLED.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.o
+
+.piolibdeps/FastLED_ID126/FastLED.i: .piolibdeps/FastLED_ID126/FastLED.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/FastLED.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.i
+
+.piolibdeps/FastLED_ID126/FastLED.s: .piolibdeps/FastLED_ID126/FastLED.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/FastLED.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.s
+
+.piolibdeps/FastLED_ID126/bitswap.o: .piolibdeps/FastLED_ID126/bitswap.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/bitswap.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.o
+
+.piolibdeps/FastLED_ID126/bitswap.i: .piolibdeps/FastLED_ID126/bitswap.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/bitswap.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.i
+
+.piolibdeps/FastLED_ID126/bitswap.s: .piolibdeps/FastLED_ID126/bitswap.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/bitswap.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.s
+
+.piolibdeps/FastLED_ID126/colorpalettes.o: .piolibdeps/FastLED_ID126/colorpalettes.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/colorpalettes.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.o
+
+.piolibdeps/FastLED_ID126/colorpalettes.i: .piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/colorpalettes.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+
+.piolibdeps/FastLED_ID126/colorpalettes.s: .piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/colorpalettes.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+
+.piolibdeps/FastLED_ID126/colorutils.o: .piolibdeps/FastLED_ID126/colorutils.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/colorutils.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.o
+
+.piolibdeps/FastLED_ID126/colorutils.i: .piolibdeps/FastLED_ID126/colorutils.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/colorutils.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.i
+
+.piolibdeps/FastLED_ID126/colorutils.s: .piolibdeps/FastLED_ID126/colorutils.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/colorutils.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.s
+
+.piolibdeps/FastLED_ID126/hsv2rgb.o: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.o
+
+.piolibdeps/FastLED_ID126/hsv2rgb.i: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+
+.piolibdeps/FastLED_ID126/hsv2rgb.s: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+
+.piolibdeps/FastLED_ID126/lib8tion.o: .piolibdeps/FastLED_ID126/lib8tion.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/lib8tion.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.o
+
+.piolibdeps/FastLED_ID126/lib8tion.i: .piolibdeps/FastLED_ID126/lib8tion.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/lib8tion.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.i
+
+.piolibdeps/FastLED_ID126/lib8tion.s: .piolibdeps/FastLED_ID126/lib8tion.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/lib8tion.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.s
+
+.piolibdeps/FastLED_ID126/noise.o: .piolibdeps/FastLED_ID126/noise.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/noise.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/noise.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.o
+
+.piolibdeps/FastLED_ID126/noise.i: .piolibdeps/FastLED_ID126/noise.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/noise.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/noise.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.i
+
+.piolibdeps/FastLED_ID126/noise.s: .piolibdeps/FastLED_ID126/noise.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/noise.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/noise.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.s
+
+.piolibdeps/FastLED_ID126/power_mgt.o: .piolibdeps/FastLED_ID126/power_mgt.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/power_mgt.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.o
+
+.piolibdeps/FastLED_ID126/power_mgt.i: .piolibdeps/FastLED_ID126/power_mgt.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/power_mgt.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.i
+
+.piolibdeps/FastLED_ID126/power_mgt.s: .piolibdeps/FastLED_ID126/power_mgt.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/power_mgt.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.s
+
+.piolibdeps/FastLED_ID126/wiring.o: .piolibdeps/FastLED_ID126/wiring.cpp.o
+
+.PHONY : .piolibdeps/FastLED_ID126/wiring.o
+
+# target to build an object file
+.piolibdeps/FastLED_ID126/wiring.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o
+.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.o
+
+.piolibdeps/FastLED_ID126/wiring.i: .piolibdeps/FastLED_ID126/wiring.cpp.i
+
+.PHONY : .piolibdeps/FastLED_ID126/wiring.i
+
+# target to preprocess a source file
+.piolibdeps/FastLED_ID126/wiring.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.i
+.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.i
+
+.piolibdeps/FastLED_ID126/wiring.s: .piolibdeps/FastLED_ID126/wiring.cpp.s
+
+.PHONY : .piolibdeps/FastLED_ID126/wiring.s
+
+# target to generate assembly for a file
+.piolibdeps/FastLED_ID126/wiring.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.s
+.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.s
+
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.o: .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o
+
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.o
+
+# target to build an object file
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o
+
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.i: .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i
+
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.i
+
+# target to preprocess a source file
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i
+
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.s: .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s
+
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.s
+
+# target to generate assembly for a file
+.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s
+.PHONY : .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s
+
+.piolibdeps/OSC_ID423/OSCBoards.o: .piolibdeps/OSC_ID423/OSCBoards.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCBoards.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.cpp.o
+
+.piolibdeps/OSC_ID423/OSCBoards.i: .piolibdeps/OSC_ID423/OSCBoards.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCBoards.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.cpp.i
+
+.piolibdeps/OSC_ID423/OSCBoards.s: .piolibdeps/OSC_ID423/OSCBoards.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCBoards.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/OSCBoards.cpp.s
+
+.piolibdeps/OSC_ID423/OSCBundle.o: .piolibdeps/OSC_ID423/OSCBundle.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCBundle.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.cpp.o
+
+.piolibdeps/OSC_ID423/OSCBundle.i: .piolibdeps/OSC_ID423/OSCBundle.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCBundle.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.cpp.i
+
+.piolibdeps/OSC_ID423/OSCBundle.s: .piolibdeps/OSC_ID423/OSCBundle.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCBundle.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/OSCBundle.cpp.s
+
+.piolibdeps/OSC_ID423/OSCData.o: .piolibdeps/OSC_ID423/OSCData.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCData.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCData.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/OSCData.cpp.o
+
+.piolibdeps/OSC_ID423/OSCData.i: .piolibdeps/OSC_ID423/OSCData.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCData.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCData.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/OSCData.cpp.i
+
+.piolibdeps/OSC_ID423/OSCData.s: .piolibdeps/OSC_ID423/OSCData.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCData.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCData.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/OSCData.cpp.s
+
+.piolibdeps/OSC_ID423/OSCMatch.o: .piolibdeps/OSC_ID423/OSCMatch.c.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCMatch.c.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.c.o
+
+.piolibdeps/OSC_ID423/OSCMatch.i: .piolibdeps/OSC_ID423/OSCMatch.c.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCMatch.c.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.i
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.c.i
+
+.piolibdeps/OSC_ID423/OSCMatch.s: .piolibdeps/OSC_ID423/OSCMatch.c.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCMatch.c.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.s
+.PHONY : .piolibdeps/OSC_ID423/OSCMatch.c.s
+
+.piolibdeps/OSC_ID423/OSCMessage.o: .piolibdeps/OSC_ID423/OSCMessage.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCMessage.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.cpp.o
+
+.piolibdeps/OSC_ID423/OSCMessage.i: .piolibdeps/OSC_ID423/OSCMessage.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCMessage.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.cpp.i
+
+.piolibdeps/OSC_ID423/OSCMessage.s: .piolibdeps/OSC_ID423/OSCMessage.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCMessage.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/OSCMessage.cpp.s
+
+.piolibdeps/OSC_ID423/OSCTiming.o: .piolibdeps/OSC_ID423/OSCTiming.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/OSCTiming.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.cpp.o
+
+.piolibdeps/OSC_ID423/OSCTiming.i: .piolibdeps/OSC_ID423/OSCTiming.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/OSCTiming.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.cpp.i
+
+.piolibdeps/OSC_ID423/OSCTiming.s: .piolibdeps/OSC_ID423/OSCTiming.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/OSCTiming.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/OSCTiming.cpp.s
+
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.o: .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o
+
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.i: .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i
+
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.s: .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s
+
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.o: .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.o
+
+# target to build an object file
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o
+
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.i: .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.i
+
+# target to preprocess a source file
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i
+
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.s: .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s
+
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.s
+
+# target to generate assembly for a file
+.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s
+.PHONY : .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -271,6 +838,69 @@ help:
 	@echo "... edit_cache"
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_UPLOAD"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.o"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.i"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.s"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.o"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.i"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/esp8266.s"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.o"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.i"
+	@echo "... .piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.s"
+	@echo "... .piolibdeps/FastLED_ID126/FastLED.o"
+	@echo "... .piolibdeps/FastLED_ID126/FastLED.i"
+	@echo "... .piolibdeps/FastLED_ID126/FastLED.s"
+	@echo "... .piolibdeps/FastLED_ID126/bitswap.o"
+	@echo "... .piolibdeps/FastLED_ID126/bitswap.i"
+	@echo "... .piolibdeps/FastLED_ID126/bitswap.s"
+	@echo "... .piolibdeps/FastLED_ID126/colorpalettes.o"
+	@echo "... .piolibdeps/FastLED_ID126/colorpalettes.i"
+	@echo "... .piolibdeps/FastLED_ID126/colorpalettes.s"
+	@echo "... .piolibdeps/FastLED_ID126/colorutils.o"
+	@echo "... .piolibdeps/FastLED_ID126/colorutils.i"
+	@echo "... .piolibdeps/FastLED_ID126/colorutils.s"
+	@echo "... .piolibdeps/FastLED_ID126/hsv2rgb.o"
+	@echo "... .piolibdeps/FastLED_ID126/hsv2rgb.i"
+	@echo "... .piolibdeps/FastLED_ID126/hsv2rgb.s"
+	@echo "... .piolibdeps/FastLED_ID126/lib8tion.o"
+	@echo "... .piolibdeps/FastLED_ID126/lib8tion.i"
+	@echo "... .piolibdeps/FastLED_ID126/lib8tion.s"
+	@echo "... .piolibdeps/FastLED_ID126/noise.o"
+	@echo "... .piolibdeps/FastLED_ID126/noise.i"
+	@echo "... .piolibdeps/FastLED_ID126/noise.s"
+	@echo "... .piolibdeps/FastLED_ID126/power_mgt.o"
+	@echo "... .piolibdeps/FastLED_ID126/power_mgt.i"
+	@echo "... .piolibdeps/FastLED_ID126/power_mgt.s"
+	@echo "... .piolibdeps/FastLED_ID126/wiring.o"
+	@echo "... .piolibdeps/FastLED_ID126/wiring.i"
+	@echo "... .piolibdeps/FastLED_ID126/wiring.s"
+	@echo "... .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.o"
+	@echo "... .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.i"
+	@echo "... .piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCBoards.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCBoards.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCBoards.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCBundle.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCBundle.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCBundle.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCData.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCData.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCData.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCMatch.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCMatch.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCMatch.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCMessage.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCMessage.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCMessage.s"
+	@echo "... .piolibdeps/OSC_ID423/OSCTiming.o"
+	@echo "... .piolibdeps/OSC_ID423/OSCTiming.i"
+	@echo "... .piolibdeps/OSC_ID423/OSCTiming.s"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedSerial.o"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedSerial.i"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedSerial.s"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.o"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.i"
+	@echo "... .piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

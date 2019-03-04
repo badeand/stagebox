@@ -57,9 +57,282 @@ include CMakeFiles/firmware.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/firmware.dir/flags.make
 
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o: ../.piolibdeps/Adafruit\ NeoPixel_ID28/Adafruit_NeoPixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o -c "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp"
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp" > CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp" -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o: ../.piolibdeps/Adafruit\ NeoPixel_ID28/esp8266.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o   -c "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/esp8266.c"
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/esp8266.c" > CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.i
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/esp8266.c" -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.s
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o: ../.piolibdeps/Adafruit\ NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o -c "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp"
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp" > CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/Adafruit NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp" -o CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o: ../.piolibdeps/FastLED_ID126/FastLED.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/FastLED.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/FastLED.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/FastLED.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o: ../.piolibdeps/FastLED_ID126/bitswap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/bitswap.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/bitswap.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/bitswap.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o: ../.piolibdeps/FastLED_ID126/colorpalettes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorpalettes.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorpalettes.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorpalettes.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o: ../.piolibdeps/FastLED_ID126/colorutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorutils.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorutils.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/colorutils.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o: ../.piolibdeps/FastLED_ID126/hsv2rgb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/hsv2rgb.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/hsv2rgb.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/hsv2rgb.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o: ../.piolibdeps/FastLED_ID126/lib8tion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/lib8tion.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o: ../.piolibdeps/FastLED_ID126/noise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/noise.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/noise.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/noise.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o: ../.piolibdeps/FastLED_ID126/power_mgt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/power_mgt.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/power_mgt.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/power_mgt.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o: ../.piolibdeps/FastLED_ID126/wiring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/wiring.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/wiring.cpp > CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/FastLED_ID126/wiring.cpp -o CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o: ../.piolibdeps/GeekFactory\ Shell\ Library_ID1946/Shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o   -c "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/Shell.c"
+
+CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/Shell.c" > CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.i
+
+CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/GeekFactory Shell Library_ID1946/Shell.c" -o CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o: ../.piolibdeps/OSC_ID423/OSCBoards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBoards.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBoards.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBoards.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o: ../.piolibdeps/OSC_ID423/OSCBundle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBundle.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBundle.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCBundle.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o: ../.piolibdeps/OSC_ID423/OSCData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCData.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCData.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCData.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o: ../.piolibdeps/OSC_ID423/OSCMatch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o   -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMatch.c
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMatch.c > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMatch.c -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o: ../.piolibdeps/OSC_ID423/OSCMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMessage.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMessage.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCMessage.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o: ../.piolibdeps/OSC_ID423/OSCTiming.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCTiming.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCTiming.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/OSCTiming.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o: ../.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.s
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o: ../.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp > CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.i
+
+CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s"
+	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/badeand/dev/stagebox/neoring24/firmware/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp -o CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.s
+
 CMakeFiles/firmware.dir/src/main.cpp.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/firmware.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/firmware.dir/src/main.cpp.o"
 	/Users/badeand/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/src/main.cpp.o -c /Users/badeand/dev/stagebox/neoring24/firmware/src/main.cpp
 
 CMakeFiles/firmware.dir/src/main.cpp.i: cmake_force
@@ -72,15 +345,57 @@ CMakeFiles/firmware.dir/src/main.cpp.s: cmake_force
 
 # Object files for target firmware
 firmware_OBJECTS = \
+"CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o" \
+"CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o" \
 "CMakeFiles/firmware.dir/src/main.cpp.o"
 
 # External object files for target firmware
 firmware_EXTERNAL_OBJECTS =
 
+firmware: CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/esp8266.c.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/Adafruit_NeoPixel_ID28/examples/StrandtestBLE/BLESerial.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/GeekFactory_Shell_Library_ID1946/Shell.c.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBoards.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCBundle.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCData.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMatch.c.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCMessage.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/OSCTiming.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedSerial.cpp.o
+firmware: CMakeFiles/firmware.dir/.piolibdeps/OSC_ID423/SLIPEncodedUSBSerial.cpp.o
 firmware: CMakeFiles/firmware.dir/src/main.cpp.o
 firmware: CMakeFiles/firmware.dir/build.make
 firmware: CMakeFiles/firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable firmware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/badeand/dev/stagebox/neoring24/firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable firmware"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/firmware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
