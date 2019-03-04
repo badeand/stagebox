@@ -6,6 +6,7 @@
 #include <WebServer.h>
 #include <ESPmDNS.h>
 #include <FastLED.h>
+#include <Shell.h>
 
 #ifdef __AVR__
 #include <avr/power.h>
@@ -30,8 +31,31 @@ const int resolution = 8;
 
 const int indicatorPin = 2;
 
+long timestamp = millis();
+
 void indicate(int s) {
     ledcWrite(indicatorPin, s);
+}
+
+int shell_reader(char * data)
+{
+    // Wrapper for Serial.read() method
+    if (Serial.available()) {
+        *data = Serial.read();
+        return 1;
+    }
+    return 0;
+}
+
+/**
+ * Function to write data to serial port
+ * Functions to write to physical media should use this prototype:
+ * void my_writer_function(char data)
+ */
+void shell_writer(char data)
+{
+    // Wrapper for Serial.write() method
+    Serial.write(data);
 }
 
 void initNetwork();
@@ -46,28 +70,6 @@ void initIndicator();
 
 void initFastLED();
 
-void setup() {
-
-    Serial.begin(9600);
-
-    Serial.println("--- SETUP ---");
-
-    initIndicator();
-
-    indicate(255);
-    initFastLED();
-
-    initNetwork();
-    indicate(64);
-
-    initUDP();
-    indicate(255);
-
-    initMDNS();
-    indicate(10);
-
-    Serial.println("--- SETUP DONE ---");
-}
 
 void initFastLED() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
 
@@ -117,25 +119,15 @@ void osc_single(OSCMessage &msg) {
 }
 
 void osc_all(OSCMessage &msg) {
-    int r = msg.getInt(0);
     int g = msg.getInt(1);
     int b = msg.getInt(2);
     for (int i = 0; i <= NUM_LEDS; i++) {
-        leds[i] = CRGB(r, g, b);
+        leds[i] = CRGB(msg.getInt(0), g, b);
     }
     FastLED.show();
 }
 
-long timestamp = millis();
 
-void loop() {
-    handleOSCMessages();
-    if (millis() < timestamp) {
-        indicate(128);
-    } else {
-        indicate(1);
-    }
-}
 
 void handleOSCMessages() {
     OSCMessage msg;
@@ -154,5 +146,65 @@ void handleOSCMessages() {
             Serial.print("error: ");
             Serial.println("" + error);
         }
+    }
+}
+
+int command_mycommand(int argc, char** argv)
+{
+    shell_println("Running \"mycommand\" now");
+    shell_println("Exit...");
+    return SHELL_RET_SUCCESS;
+}
+
+int command_othercommand(int argc, char** argv)
+{
+    shell_println("Running \"othercommand\" now");
+    shell_println("Exit...");
+    return SHELL_RET_SUCCESS;
+}
+
+void initShell() {
+    shell_init(shell_reader, shell_writer, 0);
+
+    // Add commands to the shell
+    shell_register(command_mycommand, PSTR("mycommand"));
+    shell_register(command_othercommand, PSTR("othercommand"));
+}
+
+void setup() {
+
+    Serial.begin(9600);
+
+    initShell();
+
+    Serial.println("--- SETUP ---");
+
+    initIndicator();
+
+    indicate(255);
+    initFastLED();
+
+    initNetwork();
+    indicate(64);
+
+    initUDP();
+    indicate(255);
+
+    initMDNS();
+    indicate(10);
+
+    Serial.println("--- SETUP DONE ---");
+}
+
+
+void loop() {
+
+    shell_task();
+
+    handleOSCMessages();
+    if (millis() < timestamp) {
+        indicate(128);
+    } else {
+        indicate(1);
     }
 }
