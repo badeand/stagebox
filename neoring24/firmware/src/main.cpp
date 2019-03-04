@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include "Arduino.h"
 #include <WiFi.h>
@@ -12,6 +13,7 @@
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
+
 
 #define NUM_LEDS 24
 #define DATA_PIN 4
@@ -78,6 +80,10 @@ void initEEPROM();
 
 char *toString(String &string);
 
+void all(int32_t r, int32_t g, int32_t b);
+
+void single(int32_t i, int32_t r, int32_t g, int32_t b);
+
 void initFastLED() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
 
 void initIndicator() {
@@ -137,19 +143,28 @@ void initUDP() {
 }
 
 void osc_single(OSCMessage &msg) {
-    leds[msg.getInt(0)] = CRGB(msg.getInt(1), msg.getInt(2), msg.getInt(3));
+    single(msg.getInt(0), msg.getInt(1), msg.getInt(2), msg.getInt(3));
+}
+
+void single(int32_t i, int32_t r, int32_t g, int32_t b) {
+    if( i >= NUM_LEDS ) {
+        Serial.printf("LED index above range! 0 - %d\n", NUM_LEDS-1);
+        return;
+    }
+    leds[i] = CRGB(r, g, b);
     FastLED.show();
 }
 
 void osc_all(OSCMessage &msg) {
-    int g = msg.getInt(1);
-    int b = msg.getInt(2);
-    for (int i = 0; i <= NUM_LEDS; i++) {
-        leds[i] = CRGB(msg.getInt(0), g, b);
+    all(msg.getInt(0), msg.getInt(1), msg.getInt(2));
+}
+
+void all(int32_t r, int32_t g, int32_t b) {
+    for (int i = 0; i < NUM_LEDS; i++) {
+        leds[i] = CRGB(r, g, b);
     }
     FastLED.show();
 }
-
 
 void handleOSCMessages() {
     OSCMessage msg;
@@ -169,17 +184,24 @@ void handleOSCMessages() {
             Serial.println("" + error);
         }
     }
-}
 
+    if (millis() < timestamp) {
+        indicate(128);
+    } else {
+        indicate(1);
+    }
+
+}
 
 int command_help(int argc, char **argv) {
-    shell_println("  reset               - reset the system");
-    shell_println("  wifissid <ssid>     - Set WIFI SSID");
-    shell_println("  wifipwd  <password> - Set WIFI password");
-    shell_println("  mdnsname <name>     - Set MDNS name");
+    shell_println("  reset                        - reset the system");
+    shell_println("  wifissid <ssid>              - Set WIFI SSID");
+    shell_println("  wifipwd  <password>          - Set WIFI password");
+    shell_println("  mdnsname <name>              - Set MDNS name");
+    shell_println("  all <r> <g> <b>              - Set color of all LEDS");
+    shell_println("  single <index> <r> <g> <b>   - Set color of one specific LED");
     return SHELL_RET_SUCCESS;
 }
-
 
 int command_reset(int argc, char **argv) {
     shell_println("Resetting system");
@@ -229,14 +251,44 @@ int command_mdnsname(int argc, char **argv) {
     return SHELL_RET_SUCCESS;
 }
 
+int command_all(int argc, char **argv) {
+
+    if (argc != 4) {
+        shell_println("Expected three parameter: red green blue (all between 0 and 255) ");
+        return SHELL_RET_FAILURE;
+    }
+
+    shell_printf("Setting colors to all LEDS: %d %d %d \r\n", String(argv[1]).toInt(), String(argv[2]).toInt(),
+                 String(argv[3]).toInt());
+    all(String(argv[1]).toInt(), String(argv[2]).toInt(), String(argv[3]).toInt());
+    return SHELL_RET_SUCCESS;
+}
+
+int command_single(int argc, char **argv) {
+
+    if (argc != 5) {
+        shell_println(
+                "Expected four parameter: index red green blue (index < number of LEDS, colors between 0 and 255) ");
+        return SHELL_RET_FAILURE;
+    }
+
+    shell_printf("Setting color to LED at index %d: %d %d %d \r\n", String(argv[1]).toInt(), String(argv[2]).toInt(),
+                 String(argv[3]).toInt(),
+                 String(argv[4]).toInt());
+    single(String(argv[1]).toInt(), String(argv[2]).toInt(), String(argv[3]).toInt(), String(argv[4]).toInt());
+    return SHELL_RET_SUCCESS;
+}
+
 void initShell() {
     shell_init(shell_reader, shell_writer, 0);
 
+    shell_register(command_help, PSTR("help"));
     shell_register(command_reset, PSTR("reset"));
     shell_register(command_wifissid, PSTR("wifissid"));
     shell_register(command_wifipwd, PSTR("wifipwd"));
     shell_register(command_mdnsname, PSTR("mdnsname"));
-    shell_register(command_help, PSTR("help"));
+    shell_register(command_all, PSTR("all"));
+    shell_register(command_single, PSTR("single"));
 }
 
 void setup() {
@@ -277,13 +329,6 @@ void initEEPROM() {
 
 
 void loop() {
-
     shell_task();
-
     handleOSCMessages();
-    if (millis() < timestamp) {
-        indicate(128);
-    } else {
-        indicate(1);
-    }
 }

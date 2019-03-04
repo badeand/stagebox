@@ -1,6 +1,8 @@
 
 
-## GeekFactory Shell Library Hack
+## GeekFactory Shell Library Hacks
+
+### pgmspace.h
 
 On compilation you may encouter the following error:
 
@@ -27,4 +29,12 @@ From:
 To:
 ```
 #include <pgmspace.h>
+```
+
+### Max commands
+
+In order for the shell to accept more than five commands,  make the following change to ```Shell.c```:
+
+```
+#define CONFIG_SHELL_MAX_COMMANDS		20
 ```
