@@ -149,26 +149,26 @@ void handleOSCMessages() {
     }
 }
 
-int command_mycommand(int argc, char** argv)
+
+int command_help(int argc, char** argv)
 {
-    shell_println("Running \"mycommand\" now");
-    shell_println("Exit...");
+    shell_println("  reset - reset the system");
     return SHELL_RET_SUCCESS;
 }
 
-int command_othercommand(int argc, char** argv)
+
+int command_reset(int argc, char** argv)
 {
-    shell_println("Running \"othercommand\" now");
-    shell_println("Exit...");
+    shell_println("Resetting system");
+    ESP.restart();
     return SHELL_RET_SUCCESS;
 }
 
 void initShell() {
     shell_init(shell_reader, shell_writer, 0);
 
-    // Add commands to the shell
-    shell_register(command_mycommand, PSTR("mycommand"));
-    shell_register(command_othercommand, PSTR("othercommand"));
+    shell_register(command_reset, PSTR("reset"));
+    shell_register(command_help, PSTR("help"));
 }
 
 void setup() {
